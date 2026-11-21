@@ -54,6 +54,72 @@
             android:layout_height="wrap_content"
             android:text="Pão" />
 
+        <CheckBox
+            android:id="@+id/macarrao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Macarrão" />
+
+        <CheckBox
+            android:id="@+id/oleo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Óleo" />
+
+        <CheckBox
+            android:id="@+id/sal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sal" />
+
+        <CheckBox
+            android:id="@+id/acucar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Açúcar" />
+
+        <CheckBox
+            android:id="@+id/cafe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Café" />
+
+        <CheckBox
+            android:id="@+id/ovos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ovos" />
+
+        <CheckBox
+            android:id="@+id/queijo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Queijo" />
+
+        <CheckBox
+            android:id="@+id/banana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Banana" />
+
+        <CheckBox
+            android:id="@+id/maca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maçã" />
+
+        <CheckBox
+            android:id="@+id/tomate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tomate" />
+
+        <CheckBox
+            android:id="@+id/batata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Batata" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

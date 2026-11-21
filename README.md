@@ -4,7 +4,7 @@
 
 **Tema:** Lista de compras
 
-Aplicativo Android em Kotlin para montar uma lista de compras e definir a prioridade. O botão **Enviar** mostra o resumo e **Ver segunda tela** abre o mesmo resultado em outra tela.
+Aplicativo Android em Kotlin para selecionar entre 15 produtos de mercado e definir a prioridade. O botão **Enviar** mostra o resumo e **Ver segunda tela** abre o mesmo resultado em outra tela.
 
 ## Arquivos da atividade
 

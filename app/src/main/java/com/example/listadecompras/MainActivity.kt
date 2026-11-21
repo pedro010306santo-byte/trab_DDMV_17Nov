@@ -7,6 +7,7 @@ import android.widget.CheckBox
 import android.widget.EditText
 import android.widget.RadioButton
 import android.widget.RadioGroup
+import android.widget.ScrollView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -19,7 +20,11 @@ class MainActivity : AppCompatActivity() {
         applyInsets()
 
         val nome = findViewById<EditText>(R.id.nome)
-        val itens = listOf(R.id.arroz, R.id.feijao, R.id.leite, R.id.pao)
+        val itens = listOf(
+            R.id.arroz, R.id.feijao, R.id.leite, R.id.pao,
+            R.id.macarrao, R.id.oleo, R.id.sal, R.id.acucar, R.id.cafe,
+            R.id.ovos, R.id.queijo, R.id.banana, R.id.maca, R.id.tomate, R.id.batata
+        )
             .map { findViewById<CheckBox>(it) }
         val prioridades = findViewById<RadioGroup>(R.id.prioridades)
         val resultado = findViewById<TextView>(R.id.resultado)
@@ -45,6 +50,8 @@ class MainActivity : AppCompatActivity() {
             val prioridade = findViewById<RadioButton>(prioridades.checkedRadioButtonId)
             resultado.text = "Lista: $titulo\nItens: $selecionados\nPrioridade: ${prioridade.text}"
             abrir.isEnabled = true
+            val tela = findViewById<ScrollView>(R.id.tela)
+            tela.post { tela.smoothScrollTo(0, tela.getChildAt(0).height) }
         }
 
         abrir.setOnClickListener {
