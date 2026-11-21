@@ -8,7 +8,7 @@ Aplicativo Android em Kotlin para selecionar entre 15 produtos de mercado e defi
 
 ## Arquivos da atividade
 
-- [Projeto Android Studio em ZIP](PedroSanto_NomeDupla_Ativ17Nov.zip)
+- [Projeto Android Studio em ZIP](PedroHenriqueDoSanto_Ativ17Nov.zip)
 - [PDF com a descrição do tema](Ativ17Nov_Lista_de_Compras.pdf)
 - [Vídeo de demonstração](Ativ17Nov_Demonstracao.mp4) — mostra o preenchimento do formulário, o resultado e a passagem para a segunda tela.
 
